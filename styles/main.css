@@ -1,15 +1,24 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
 header {
+  height: 400px;
+  background-image: url("../images/ice-cream.jpg");
   background-color: #742;
 }
 
 header img {
-  height: 400px;
+  height: 100%;
   margin: auto;
   display: block;
+  position: relative;
 }
 
 nav {
   background-color: #411;
+  color: #ca8;
 }
 
 li {
