@@ -1,0 +1,17 @@
+header {
+  background-color: #742;
+}
+
+header img {
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
+nav {
+  background-color: #411;
+}
+
+li {
+  display: inline;
+}
