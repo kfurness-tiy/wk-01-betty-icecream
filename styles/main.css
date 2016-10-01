@@ -54,6 +54,12 @@ li {
   display: inline;
 }
 
+.arrow {
+  position: fixed;
+  right: 1rem;
+  bottom: 2rem;
+}
+
 .sidebar {
   width: 22%;
   padding: 1em;
@@ -66,8 +72,9 @@ li {
 }
 
 main {
-  width: 70%;
+  width: 68%;
   padding: 1em;
+  margin-right: 2em;
   margin: auto;
   display: block;
 }
