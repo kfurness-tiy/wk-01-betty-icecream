@@ -5,6 +5,7 @@
 
 body {
   background-color: #fc8;
+  font-family: 'Baloo Bhai', cursive;
 }
 
 header {
@@ -56,4 +57,9 @@ ul{
 
 li {
   display: inline;
+}
+
+
+.flavors img{
+  height: 150px;
 }
