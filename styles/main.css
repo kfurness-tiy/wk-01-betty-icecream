@@ -154,7 +154,15 @@ main p {
   font-size: 3rem;
 }
 
+.contact p {
+  width: 40%;
+}
 
+iframe {
+  width: 55%;
+  height: 160px;
+  margin-right: 10px;
+}
 
 footer {
   background-color: #411;
