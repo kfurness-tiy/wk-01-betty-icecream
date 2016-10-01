@@ -66,3 +66,22 @@ li {
 .flavors img{
   height: 150px;
 }
+
+.fa-2x {
+  font-size: 2rem;
+}
+
+.fa-3x {
+  font-size: 3rem;
+}
+
+.home-arrow {
+  background-color: #d90;
+  border-radius: 30%;
+  border: 1px solid #d90;
+}
+
+footer {
+  background-color: #411;
+  font-size: 1.5rem;
+}

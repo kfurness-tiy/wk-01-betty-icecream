@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>BBIC</title>
+    <script src="https://use.fontawesome.com/f5d9fce460.js"></script>
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
 
@@ -19,12 +20,17 @@
       </div>
       <nav>
         <ul>
-          <li>History</li>
-          <li>Flavors</li>
-          <li>Contact Info</li>
+          <a href="#history"><li>History</li></a>
+          <a href="#menu"><li>Flavors</li></a>
+          <a href="#contact"><li>Contact Info</li></a>
         </ul>
       </nav>
     </header>
+
+    <!-- Up arrow to get home -->
+    <div class="fa-3x">
+      <i class="home-arrow fa fa-arrow-circle-up" aria-hidden="true"></i>
+    </div>
 
     <div class="clearfix">
       <!--Sidebar section with brief description and contact info-->
@@ -45,7 +51,7 @@
       <!--Main Content-->
       <main>
         <!-- History -->
-        <div class="history">
+        <div class="history" id="history">
           <h2>History</h2>
           <p>
             Topping marzipan I love powder jelly gingerbread. Muffin gingerbread sesame snaps ice cream. Toffee marshmallow danish. I love bear claw gummies I love danish marzipan.
@@ -59,7 +65,7 @@
         </div>
 
         <!-- Flavors -->
-        <div class="menu">
+        <div class="menu" id="menu">
           <h2>Flavors</h2>
           <div>
             <div class="flavors">
@@ -192,7 +198,7 @@
         </div>
 
         <!-- Contact Us -->
-        <div class="contact">
+        <div class="contact" id="contact">
           <h2>Contact Us</h2>
         </div>
       </main>
@@ -204,7 +210,9 @@
         ©2016
       </p>
       <div class="social">
-
+        <i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i>
+        <i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-2x fa-snapchat-square" aria-hidden="true"></i>
       </div>
     </footer>
   </body>
