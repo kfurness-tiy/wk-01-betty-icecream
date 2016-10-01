@@ -3,6 +3,10 @@
   border: 0;
 }
 
+body {
+  background-color: #fc8;
+}
+
 header {
   height: 317px ;
   background-image: url("../images/ice-cream.jpg");
@@ -22,12 +26,21 @@ header {
   width: 150px;
   background-color: #f01;
 }
+.logo img {
+  margin:auto;
+  display: block;
+  top: 5px;
+  position: relative
+}
 
 .logo p {
   text-align: center;
   position: relative;
-  top: 70px;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Baloo Bhai', cursive;
+  line-height: 1.2rem;
+  top: 6px;
 }
 
 nav {
@@ -38,6 +51,7 @@ nav {
 
 ul{
   padding-left: 25%;
+  position: relative;
 }
 
 li {
