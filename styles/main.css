@@ -87,7 +87,7 @@ li {
 
 .arrow {
   position: fixed;
-  right: 1rem;
+  right: .5rem;
   bottom: 2rem;
 }
 
@@ -139,7 +139,7 @@ main p {
 }
 
 .flavors:hover {
-  background-color: #870;
+  background-color: #d90;
 }
 
 .flavors img{
@@ -159,4 +159,23 @@ main p {
 footer {
   background-color: #411;
   font-size: 1.5rem;
+  color: #ca8;
+}
+
+footer p {
+  color: #ca8;
+  margin-left: 20px;
+  padding: 10px 0;
+}
+
+.social {
+  margin-right: 20px;
+}
+
+i {
+  padding: 5px;
+}
+
+.clear-footer {
+  clear: both;
 }
