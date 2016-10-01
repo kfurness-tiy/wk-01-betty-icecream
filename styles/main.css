@@ -11,6 +11,14 @@ header {
   background-color: #742;
 }
 
+p {
+  color: #f34;
+}
+
+h1, h2, h3 {
+  color: #411;
+}
+
 .header_space {
   height: 100px;
 }
@@ -37,6 +45,7 @@ header {
   font-family: 'Baloo Bhai', cursive;
   line-height: 1.2rem;
   top: 6px;
+  color: #411;
 }
 
 nav {
@@ -52,12 +61,35 @@ ul{
 
 li {
   display: inline;
+  color: #ca8;
 }
 
 .arrow {
   position: fixed;
   right: 1rem;
   bottom: 2rem;
+}
+
+.home-arrow {
+  background-color: #d90;
+  border-radius: 30%;
+  border: 1px solid #d90;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a i:hover {
+  background-color: #f34;
+  border-radius: 30%;
+  border: 1px solid #f34;
+}
+ a i:visited {
+  background-color: #d90;
+  border-radius: 30%;
+  border: 1px solid #d90;
 }
 
 .sidebar {
@@ -99,11 +131,7 @@ main p {
   font-size: 3rem;
 }
 
-.home-arrow {
-  background-color: #d90;
-  border-radius: 30%;
-  border: 1px solid #d90;
-}
+
 
 footer {
   background-color: #411;
