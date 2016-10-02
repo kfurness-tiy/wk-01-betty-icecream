@@ -42,23 +42,16 @@ span {
   height: 100px;
 }
 
-.logo {
-  border: 6px solid #411;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  background-color: #d90;
+.logo-spacing {
+  display:block;
+  margin: auto;
   position: absolute;
-  top: 225px;
-  left: 20px;
+  width: 24%;
+  text-align: center;
   z-index: 1;
+  margin-top: 130px;
 }
-.logo img {
-  margin:auto;
-  display: block;
-  top: 4px;
-  position: relative;
-}
+
 
 .logo p {
   text-align: center;
@@ -69,6 +62,12 @@ span {
   line-height: 1.2rem;
   top: 2px;
   color: #411;
+}
+
+.nav-spacing.float-right {
+    width: 100%;
+    margin: auto;
+    display: block;
 }
 
 nav {
@@ -84,6 +83,7 @@ ul{
   margin-left: 150px;
   position: relative;
   margin-top: 8px;
+  margin-left: 22%;
 }
 
 li {
