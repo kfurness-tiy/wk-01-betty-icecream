@@ -1,5 +1,6 @@
 * {
   font-size: 20px;
+  line-height: 25px;
 }
 
 body {
@@ -31,6 +32,7 @@ h3 {
 h1, h2, h3 {
   color: #FA1427;
   margin: 20px 10px;
+  padding-top: 20px;
 }
 
 span {
@@ -119,6 +121,7 @@ li:hover {
   position: fixed;
   right: .5rem;
   bottom: 2rem;
+  padding: 5px;
 }
 
 .home-arrow {
@@ -153,7 +156,7 @@ a i:hover {
   margin: auto;
   margin-left: 20px;
   display: block;
-  margin-top: 75px;
+  padding-top: 60px;
 }
 
 .sidebar p {
@@ -166,7 +169,7 @@ main {
   margin-right: 2em;
   margin: auto;
   display: block;
-    margin-top: 75px;
+  padding-top: 60px;
 }
 
 main p {
@@ -234,6 +237,10 @@ th {
   clear: both;
 }
 
+.contact h2 {
+  padding-top: 25px
+}
+
 .fa-2x {
   font-size: 2rem;
 }
@@ -268,8 +275,8 @@ footer p {
   margin-right: 20px;
 }
 
-i {
-  padding: 5px;
+.social i {
+  padding: 15px 5px;
 }
 
 .clear-footer {
