@@ -4,7 +4,7 @@
 
 body {
   background-color: #fc8;
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Cabin', sans-serif;
 }
 
 header {
@@ -28,18 +28,35 @@ h3 {
 }
 
 h1, h2, h3 {
-  color: #f34;
-  text-shadow: 2px 2px #6E010A;
+  color: #FA1427;
+  /*text-shadow: 2px 2px #6E010A;*/
 }
 
 span {
-  text-shadow: 1.5px 1.5px beige;
+  /*text-shadow: 1.5px 1.5px beige;
   letter-spacing: 1px;
-  font-style: italic;
+  font-style: italic;*/
 }
 
 .header_space {
   height: 100px;
+}
+
+.betty {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 170px;
+  padding: 70px 0;
+  color: white;
+  font-size: 3rem;
+  background: linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
+  font-weight: bold;
+  letter-spacing: 4px;
+  line-height: 75px;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .logo-spacing {
@@ -116,9 +133,9 @@ a {
 }
 
 a i:hover {
-  background-color: #f34;
+  background-color: #FA1427;
   border-radius: 30%;
-  border: 1px solid #f34;
+  border: 1px solid #FA1427;
 }
  a i:visited {
   background-color: #d90;
