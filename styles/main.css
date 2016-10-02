@@ -143,7 +143,8 @@ main p {
   width: 28%;
   margin: 5px;
   padding: 5px;
-  height: 400px;
+  height: 350px;
+  text-align: center;
 }
 
  .flavors:nth-of-type(even) {
@@ -156,6 +157,12 @@ main p {
 
 .flavors img{
   height: 150px;
+  margin: auto;
+  display: block;
+}
+
+table {
+  border: 1px solid #411;
 }
 
 .contact {
