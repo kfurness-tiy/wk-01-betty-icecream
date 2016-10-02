@@ -32,6 +32,12 @@ h1, h2, h3 {
   text-shadow: 2px 2px #6E010A;
 }
 
+span {
+  text-shadow: 1.5px 1.5px beige;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
 .header_space {
   height: 100px;
 }
@@ -75,7 +81,7 @@ nav {
 }
 
 ul{
-  padding-left: 25%;
+  margin-left: 200px;
   position: relative;
   margin-top: 8px;
 }
@@ -83,7 +89,13 @@ ul{
 li {
   display: inline;
   color: #ca8;
-  padding: 1rem;
+  padding: 0 1rem;
+}
+
+li:hover {
+  background-color: #ea0;
+  color: #411;
+  height: 45px;
 }
 
 .arrow {
@@ -140,7 +152,7 @@ main p {
 }
 
 .flavors {
-  border: 2px solid #411;
+  border: 3px solid #411;
   width: 28%;
   margin: 5px;
   padding: 5px;
@@ -168,7 +180,7 @@ main p {
 
 .flavors h3 {
   color: #663A1D;
-  text-shadow: 2px 2px black;
+  text-shadow: 2px 2px #ca8;
   letter-spacing: 1.3px;
 }
 
@@ -177,18 +189,23 @@ table {
   border-collapse: collapse;
   margin: auto;
   display: table;;
-  width: 100%;
+  width: 90%;
   height: 150px;
 }
 
 table, th, td {
-  border: 1px solid #411;
+  border: 2px solid #411;
 }
 
 th, td {
   vertical-align: middle;
   /*height: 60px;*/
   /*width: auto;*/
+}
+
+th {
+  height: 40px;
+  background-color: #C4A687;
 }
 
 .contact {
