@@ -36,7 +36,7 @@ h1, h2, h3 {
 }
 
 span {
-
+  text-decoration: underline;
 }
 
 .header_space {
@@ -207,6 +207,7 @@ main p {
 .flavors h3 {
   color: #663A1D;
   letter-spacing: 1.3px;
+  padding-top: 5px;
 }
 
 table {
