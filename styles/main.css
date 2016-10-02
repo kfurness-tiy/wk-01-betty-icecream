@@ -29,6 +29,7 @@ h3 {
 
 h1, h2, h3 {
   color: #f34;
+  text-shadow: 2px 2px #6E010A;
 }
 
 .header_space {
@@ -147,8 +148,12 @@ main p {
   text-align: center;
 }
 
- .flavors:nth-of-type(even) {
+ .flavors:nth-of-type(odd) {
   background-color: #B5906B;
+}
+
+.flavors:nth-of-type(even) {
+ background-color: #D9BEA3;
 }
 
 .flavors:hover {
@@ -161,8 +166,29 @@ main p {
   display: block;
 }
 
+.flavors h3 {
+  color: #663A1D;
+  text-shadow: 2px 2px black;
+  letter-spacing: 1.3px;
+}
+
 table {
+  font-size: 1rem;
+  border-collapse: collapse;
+  margin: auto;
+  display: table;;
+  width: 100%;
+  height: 150px;
+}
+
+table, th, td {
   border: 1px solid #411;
+}
+
+th, td {
+  vertical-align: middle;
+  /*height: 60px;*/
+  /*width: auto;*/
 }
 
 .contact {
