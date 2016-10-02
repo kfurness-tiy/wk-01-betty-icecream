@@ -65,22 +65,10 @@ span {
   display:block;
   margin: auto;
   position: absolute;
-  width: 24%;
+  width: 22%;
   text-align: center;
   z-index: 1;
   margin-top: 130px;
-}
-
-
-.logo p {
-  text-align: center;
-  position: relative;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: 'Baloo Bhai', cursive;
-  line-height: 1.2rem;
-  top: 2px;
-  color: #411;
 }
 
 .nav-spacing.float-right {
@@ -102,7 +90,7 @@ nav {
 ul{
   position: relative;
   margin-top: 8px;
-  margin-left: 22%;
+  margin-left: 20%;
 }
 
 li {
@@ -131,7 +119,7 @@ li:hover {
 }
 
 header li {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 10px;
   }
 
 a {
@@ -151,8 +139,8 @@ a i:hover {
 }
 
 .sidebar {
-  width: 22%;
-  padding: 1em;
+  width: 20%;
+  padding: 10px;
   margin: auto;
   margin-left: 20px;
   display: block;
@@ -164,9 +152,8 @@ a i:hover {
 }
 
 main {
-  width: 68%;
-  padding: 1em;
-  margin-right: 2em;
+  width: 70%;
+  padding: 0 0 0 20px;
   margin: auto;
   display: block;
   padding-top: 60px;
