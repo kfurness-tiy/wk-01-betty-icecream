@@ -17,6 +17,9 @@ header {
   background-repeat: no-repeat;
   background-position: top center;;
   background-color: #742;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 p {
@@ -148,11 +151,12 @@ a i:hover {
 
 .sidebar {
   width: 20%;
+  min-width: 250px;
   padding: 10px;
   margin: auto;
-  margin-left: 20px;
+  margin-top: 375px;
   display: block;
-  padding-top: 60px;
+  ;
 }
 
 .sidebar p {
@@ -164,7 +168,7 @@ main {
   padding: 0 0 0 20px;
   margin: auto;
   display: block;
-  padding-top: 60px;
+  margin-top: 375px;
 }
 
 main p {
