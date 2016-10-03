@@ -111,19 +111,6 @@ li:hover {
   height: 45px;
 }
 
-.arrow {
-  position: fixed;
-  right: .5rem;
-  bottom: 2rem;
-  padding: 5px;
-}
-
-.home-arrow {
-  background-color: #d90;
-  border-radius: 30%;
-  border: 1px solid #d90;
-}
-
 header li {
     margin: 0 0 0 10px;
   }
@@ -149,10 +136,17 @@ a i:hover {
   border: 1px solid #FA1427;
 }
 
+.clearfix {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
 .sidebar {
   width: 20%;
   min-width: 250px;
-  padding: 10px;
+  padding: 0 10px 0 0;
   margin: auto;
   margin-top: 375px;
   display: block;
@@ -164,8 +158,8 @@ a i:hover {
 }
 
 main {
-  width: 70%;
-  padding: 0 0 0 20px;
+  max-width: 70%;
+  padding: 0 0 0 10px;
   margin: auto;
   display: block;
   margin-top: 375px;
@@ -180,7 +174,11 @@ main p {
   width: 28%;
   margin: 5px;
   padding: 5px;
-  height: 350px;
+  text-align: center;
+  position: relative;
+}
+
+.flavor-info {
   text-align: center;
 }
 
@@ -205,7 +203,7 @@ main p {
 }
 
 .flavors img{
-  height: 120px;
+  height: 80px;
   margin: auto;
   display: block;
   margin-top: 18px;
@@ -239,6 +237,19 @@ th, td {
 th {
   height: 40px;
   background-color: #C4A687;
+}
+
+.arrow {
+  position: fixed;
+  right: .5rem;
+  bottom: 2rem;
+  padding: 5px;
+}
+
+.home-arrow {
+  background-color: #d90;
+  border-radius: 30%;
+  border: 1px solid #d90;
 }
 
 .contact {
