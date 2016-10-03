@@ -127,15 +127,20 @@ a {
   text-decoration: none;
 }
 
+.social a:link {
+ background-color: none;
+}
+
+a i:visited {
+ background-color: #FA1427;
+ border-radius: 30%;
+ border: 1px solid #FA1427;
+}
+
 a i:hover {
   background-color: #FA1427;
   border-radius: 30%;
   border: 1px solid #FA1427;
-}
- a i:visited {
-  background-color: #d90;
-  border-radius: 30%;
-  border: 1px solid #d90;
 }
 
 .sidebar {
@@ -178,6 +183,14 @@ main p {
 
 .flavors:nth-of-type(even) {
  background-color: #D9BEA3;
+}
+
+.flavors:link {
+  background-color: inherit;
+}
+
+.flavors:visited {
+  background-color: #d90;
 }
 
 .flavors:hover {
