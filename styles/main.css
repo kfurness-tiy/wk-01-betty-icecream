@@ -1,12 +1,15 @@
 * {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 body {
   background-color: #fc8;
   font-family: 'Cabin', sans-serif;
-  max-width: 1000px;
+}
+
+.clearfix {
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
@@ -25,14 +28,15 @@ header {
 p {
   color: #411;
   margin: 10px;
+  font-size: 1.2rem;
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.7rem;
 }
 
 h1, h2, h3 {
@@ -57,7 +61,7 @@ span {
   height: 170px;
   padding: 70px 0;
   color: white;
-  font-size: 3rem;
+  font-size: 3.5rem;
   background: linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
   background: -webkit-linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
   background: -moz-linear-gradient(bottom, rgba(119,68,34,.8), rgba(0,0,0,.4));
@@ -112,7 +116,7 @@ li:hover {
 }
 
 header li {
-    margin: 0 0 0 10px;
+  font-size: 1.4rem;
   }
 
 a {
@@ -144,8 +148,7 @@ a i:hover {
 }
 
 .sidebar {
-  width: 20%;
-  min-width: 250px;
+  width: 25%;
   padding: 0 10px 0 0;
   margin: auto;
   margin-top: 375px;
@@ -158,11 +161,12 @@ a i:hover {
 }
 
 main {
-  max-width: 70%;
   padding: 0 0 0 10px;
   margin: auto;
   display: block;
   margin-top: 375px;
+  width: 70%;
+  max-width: 40rem;
 }
 
 main p {
@@ -213,30 +217,6 @@ main p {
   color: #663A1D;
   letter-spacing: 1.3px;
   padding-top: 5px;
-}
-
-table {
-  font-size: 1rem;
-  border-collapse: collapse;
-  margin: auto;
-  display: table;;
-  width: 90%;
-  min-height: 125px;
-}
-
-table, th, td {
-  border: 2px solid #411;
-}
-
-th, td {
-  vertical-align: middle;
-  /*height: 60px;*/
-  /*width: auto;*/
-}
-
-th {
-  height: 40px;
-  background-color: #C4A687;
 }
 
 .arrow {
