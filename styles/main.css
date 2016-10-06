@@ -65,30 +65,42 @@ header {
   font-family: 'Gloria Hallelujah', cursive;
 }
 
+.header_nav {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav_color {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #411;
+  height: 45px;
+  top: 290px;
+}
+
 .logo-spacing {
   display:block;
   margin: auto;
   position: absolute;
-  width: 30%;
+  width: 25%;
   text-align: center;
   z-index: 1;
   margin-top: 230px;
 }
 
-.nav-spacing.float-right {
-    width: 100%;
-    margin: auto;
-    display: block;
+.logo {
+    padding-right: 10px;
 }
-
 
 nav {
   height: 45px;
-  background-color: #411;
   color: #ca8;
-  width: 100%;
+  width: 75%;
   position: absolute;
   top: 290px;
+  padding-left: 10px;
 }
 
 ul{
