@@ -66,8 +66,11 @@ header {
 }
 
 .header_nav {
+  width: 100%;
   max-width: 900px;
   margin: 0 auto;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .nav_color {
@@ -83,30 +86,26 @@ header {
 .logo-spacing {
   display:block;
   margin: auto;
-  position: absolute;
+  position: relative;
   width: 25%;
   text-align: center;
-  z-index: 1;
   margin-top: 230px;
-}
-
-.logo {
-    padding-right: 10px;
+  padding-right: 10px;
 }
 
 nav {
-  height: 45px;
   color: #ca8;
-  width: 75%;
-  position: absolute;
   top: 290px;
+  max-width: 40rem;
+  text-align: center;
   padding-left: 10px;
+  width: 75%;
 }
 
 ul{
   position: relative;
   margin-top: 8px;
-  margin-left: 27%;
+  top: 290px;
 }
 
 li {
@@ -168,7 +167,6 @@ a i:hover {
 main {
   padding: 0 0 0 10px;
   margin: auto;
-  display: block;
   margin-top: 375px;
   width: 70%;
   max-width: 40rem;
@@ -257,6 +255,7 @@ main p {
   width: 40%;
   display: block;
 }
+
 
 iframe {
   width: 55%;
