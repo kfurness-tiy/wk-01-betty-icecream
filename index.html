@@ -4,14 +4,102 @@
     <meta charset="utf-8">
     <title>BBIC</title>
     <script src="https://use.fontawesome.com/f5d9fce460.js"></script>
-    <link rel="stylesheet" href="./styles/position.css">
-    <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="./styles/bs_main.css">
   </head>
 
   <body id="home">
+    <!-- HEADER ---------------------------->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <h1>Betty's Best <br>
+        Ice Cream</h1>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3" >
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div>
+        <div class="col-sm-9 collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#history">History</a></li>
+            <li><a href="#menu">Flavors</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+
+  <!----------------body ------------------------->
+
+  <div class="container">
+    <div class="row content">
+      <div class="col-sm-3 sidenav hidden-xs">
+        <h2>Logo</h2>
+        <ul class="nav nav-pills nav-stacked">
+          <li class="active"><a href="#section1">Dashboard</a></li>
+          <li><a href="#section2">Age</a></li>
+          <li><a href="#section3">Gender</a></li>
+          <li><a href="#section3">Geo</a></li>
+        </ul><br>
+      </div>
+      <br>
+
+    <div class="col-sm-9">
+      <div class="well">
+        <h4>Dashboard</h4>
+        <p>Some text..</p>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <h4>Users</h4>
+            <p>1 Million</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <h4>Pages</h4>
+            <p>100 Million</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="well">
+            <h4>Sessions</h4>
+            <p>10 Million</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div> <!-- ends overall body parent container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <header>
+      <div class="container-fluid">
         <p class="betty">
           Betty's Best <br>
           Ice Cream
