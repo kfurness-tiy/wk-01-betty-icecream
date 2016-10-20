@@ -43,5 +43,9 @@ iframe {
 .arrow {
   position: fixed;
   right: 10px;
-  bottom: 10px;
+  bottom: 30px;
+}
+
+.sidebar {
+  margin-top: 20px;
 }
