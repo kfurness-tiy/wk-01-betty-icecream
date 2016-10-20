@@ -1,0 +1,41 @@
+.jumbotron {
+  margin-bottom: 0;
+  background-image: url('../images/big-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 350px;
+}
+
+.jumbotron h1 {
+  color: white;
+}
+
+.jumbotron div {
+  height: 350px;
+  top: -48px;
+  padding: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  z-index: 1;
+  position: absolute;
+  top: -40px;
+  height: 125px;
+  width: 125px;
+}
+
+.logo_space {
+  display: flex;
+  justify-content: center;
+  padding-right: 25px;
+}
+
+iframe {
+  width: 90%;
+  height: 250px;
+}
