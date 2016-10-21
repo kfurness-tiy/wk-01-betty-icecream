@@ -1,3 +1,7 @@
+body {
+  font-size: 16px;
+}
+
 .jumbotron {
   margin-bottom: 0;
   background-image: url('../images/big-header.jpg');
@@ -57,11 +61,21 @@
 .navbar {
   background-color: #2e1f13;
   border: none;
+  margin-bottom: 30px;
 }
 
 .navbar a {
   color: #f2e8d8;
   font-size: 20px;
+}
+
+.sidebar {
+  margin-top: 25px;
+}
+
+.flavorPhotos {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 iframe {
@@ -72,14 +86,20 @@ iframe {
 .arrow {
   position: fixed;
   right: 10px;
-  bottom: 30px;
+  bottom: 80px;
+  color: #2e1f13;
 }
 
-.sidebar {
-  margin-top: 20px;
+.arrow a, .social a {
+  color: #2e1f13;
 }
 
-.flavorPhotos {
-  max-width: 150px;
-  max-height: 150px;
+.arrow a:hover, .social a:hover {
+  color: #ab7d58;
+}
+
+footer {
+  height: 70px;
+  background-color: #ab7d58;
+  color: #f2e8d8;
 }
