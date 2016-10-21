@@ -49,3 +49,8 @@ iframe {
 .sidebar {
   margin-top: 20px;
 }
+
+.flavorPhotos {
+  max-width: 150px;
+  max-height: 150px;
+}
