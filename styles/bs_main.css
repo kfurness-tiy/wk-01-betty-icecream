@@ -8,11 +8,15 @@
 }
 
 .jumbotron h1 {
-  color: white;
+  color: #faf4eb;
+  font-size: 88px;
+  font-family: cursive;
+  font-weight: 500;
+  text-shadow: 2px 2px #55382a;
 }
 
 .jumbotron div {
-  height: 350px;
+  height: 370px;
   top: -48px;
   padding: 0px;
   position: relative;
@@ -21,18 +25,43 @@
   flex-direction: column;
 }
 
-.logo {
-  z-index: 1;
-  position: absolute;
-  top: -40px;
-  height: 125px;
-  width: 125px;
+.gradBack {
+  background: linear-gradient(bottom, rgba(119,68,34,.7), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(119,68,34,.7), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(119,68,34,.7), rgba(0,0,0,.4));
 }
 
-.logo_space {
+.centerImg {
   display: flex;
   justify-content: center;
-  padding-right: 25px;
+}
+
+.logo {
+  /*position: absolute;
+  top: -60px;*/
+  height: 160px;
+  width: 160px;
+  z-index: 1;
+}
+
+
+.logo_cont {
+  position: absolute;
+  top: -70px;
+  background-color: #f2e8d8;
+  border-radius: 50%;
+  border: 6px solid rgb(74,52,41);
+
+}
+
+.navbar {
+  background-color: #2e1f13;
+  border: none;
+}
+
+.navbar a {
+  color: #f2e8d8;
+  font-size: 20px;
 }
 
 iframe {
